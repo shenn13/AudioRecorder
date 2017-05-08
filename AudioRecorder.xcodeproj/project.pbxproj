@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64E77C601EBDA4E400AA4174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77C5F1EBDA4E400AA4174 /* main.m */; };
+		64E77C631EBDA4E400AA4174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77C621EBDA4E400AA4174 /* AppDelegate.m */; };
+		64E77C691EBDA4E400AA4174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E77C671EBDA4E400AA4174 /* Main.storyboard */; };
+		64E77C6B1EBDA4E400AA4174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E77C6A1EBDA4E400AA4174 /* Assets.xcassets */; };
+		64E77C6E1EBDA4E400AA4174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E77C6C1EBDA4E400AA4174 /* LaunchScreen.storyboard */; };
+		64E77C791EBDA4E400AA4174 /* AudioRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77C781EBDA4E400AA4174 /* AudioRecorderTests.m */; };
+		64E77C841EBDA4E400AA4174 /* AudioRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77C831EBDA4E400AA4174 /* AudioRecorderUITests.m */; };
+		64E77C941EBDA51C00AA4174 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77C931EBDA51C00AA4174 /* BaseViewController.m */; };
+		64E77CA11EBDA69700AA4174 /* RecordAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77C9F1EBDA69700AA4174 /* RecordAudioView.m */; };
+		64E77CA21EBDA69700AA4174 /* RecordAudioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E77CA01EBDA69700AA4174 /* RecordAudioView.xib */; };
+		64E77CA51EBDA6E500AA4174 /* XXBRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CA41EBDA6E500AA4174 /* XXBRippleView.m */; };
+		64E77CA81EBDA6F600AA4174 /* LocialNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CA71EBDA6F600AA4174 /* LocialNotificationManager.m */; };
+		64E77CD11EBDB42500AA4174 /* WaterDropAudioViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E77CD01EBDB42500AA4174 /* WaterDropAudioViewController.storyboard */; };
+		64E77CD41EBDB43200AA4174 /* WaterDropAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CD31EBDB43200AA4174 /* WaterDropAudioViewController.m */; };
+		64E77CDA1EBDB48300AA4174 /* RecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CD61EBDB48300AA4174 /* RecordView.m */; };
+		64E77CDB1EBDB48300AA4174 /* RecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E77CD71EBDB48300AA4174 /* RecordView.xib */; };
+		64E77CDC1EBDB48300AA4174 /* AudioListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CD91EBDB48300AA4174 /* AudioListCell.m */; };
+		64E77CE01EBDB48E00AA4174 /* NilDataTip.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E77CDD1EBDB48E00AA4174 /* NilDataTip.xib */; };
+		64E77CE11EBDB48E00AA4174 /* NilDataTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CDF1EBDB48E00AA4174 /* NilDataTipView.m */; };
+		64E77CE61EBDB4B800AA4174 /* AudioListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CE31EBDB4B800AA4174 /* AudioListModel.m */; };
+		64E77CE71EBDB4B800AA4174 /* AudioFileInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CE51EBDB4B800AA4174 /* AudioFileInfoModel.m */; };
+		64E77CEC1EBDB4C600AA4174 /* NSString+Enhance.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CE91EBDB4C600AA4174 /* NSString+Enhance.m */; };
+		64E77CED1EBDB4C600AA4174 /* NSDate+Ldate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CEB1EBDB4C600AA4174 /* NSDate+Ldate.m */; };
+		64E77CF11EBDB4D200AA4174 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E77CF01EBDB4D200AA4174 /* MBProgressHUD.m */; };
+		64FB17C51EBEE7DE003AC986 /* amr_wav_converter.c in Sources */ = {isa = PBXBuildFile; fileRef = 64FB17BE1EBEE7DE003AC986 /* amr_wav_converter.c */; };
+		64FB17C61EBEE7DE003AC986 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FB17C01EBEE7DE003AC986 /* libopencore-amrnb.a */; };
+		64FB17C71EBEE7DE003AC986 /* PRNAmrPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FB17C21EBEE7DE003AC986 /* PRNAmrPlayer.m */; };
+		64FB17C81EBEE7DE003AC986 /* PRNAmrRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FB17C41EBEE7DE003AC986 /* PRNAmrRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64E77C751EBDA4E400AA4174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E77C531EBDA4E400AA4174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64E77C5A1EBDA4E400AA4174;
+			remoteInfo = AudioRecorder;
+		};
+		64E77C801EBDA4E400AA4174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E77C531EBDA4E400AA4174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64E77C5A1EBDA4E400AA4174;
+			remoteInfo = AudioRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64E77C5B1EBDA4E400AA4174 /* AudioRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E77C5F1EBDA4E400AA4174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64E77C611EBDA4E400AA4174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64E77C621EBDA4E400AA4174 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64E77C681EBDA4E400AA4174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64E77C6A1EBDA4E400AA4174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64E77C6D1EBDA4E400AA4174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64E77C6F1EBDA4E400AA4174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E77C741EBDA4E400AA4174 /* AudioRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E77C781EBDA4E400AA4174 /* AudioRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioRecorderTests.m; sourceTree = "<group>"; };
+		64E77C7A1EBDA4E400AA4174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E77C7F1EBDA4E400AA4174 /* AudioRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E77C831EBDA4E400AA4174 /* AudioRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioRecorderUITests.m; sourceTree = "<group>"; };
+		64E77C851EBDA4E400AA4174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E77C921EBDA51C00AA4174 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		64E77C931EBDA51C00AA4174 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		64E77C9E1EBDA69700AA4174 /* RecordAudioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordAudioView.h; sourceTree = "<group>"; };
+		64E77C9F1EBDA69700AA4174 /* RecordAudioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordAudioView.m; sourceTree = "<group>"; };
+		64E77CA01EBDA69700AA4174 /* RecordAudioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordAudioView.xib; sourceTree = "<group>"; };
+		64E77CA31EBDA6E500AA4174 /* XXBRippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBRippleView.h; sourceTree = "<group>"; };
+		64E77CA41EBDA6E500AA4174 /* XXBRippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBRippleView.m; sourceTree = "<group>"; };
+		64E77CA61EBDA6F600AA4174 /* LocialNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocialNotificationManager.h; sourceTree = "<group>"; };
+		64E77CA71EBDA6F600AA4174 /* LocialNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocialNotificationManager.m; sourceTree = "<group>"; };
+		64E77CB61EBDA79400AA4174 /* PCHHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHHeader.h; sourceTree = "<group>"; };
+		64E77CD01EBDB42500AA4174 /* WaterDropAudioViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WaterDropAudioViewController.storyboard; sourceTree = "<group>"; };
+		64E77CD21EBDB43200AA4174 /* WaterDropAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterDropAudioViewController.h; sourceTree = "<group>"; };
+		64E77CD31EBDB43200AA4174 /* WaterDropAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterDropAudioViewController.m; sourceTree = "<group>"; };
+		64E77CD51EBDB48300AA4174 /* RecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordView.h; sourceTree = "<group>"; };
+		64E77CD61EBDB48300AA4174 /* RecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordView.m; sourceTree = "<group>"; };
+		64E77CD71EBDB48300AA4174 /* RecordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordView.xib; sourceTree = "<group>"; };
+		64E77CD81EBDB48300AA4174 /* AudioListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioListCell.h; sourceTree = "<group>"; };
+		64E77CD91EBDB48300AA4174 /* AudioListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioListCell.m; sourceTree = "<group>"; };
+		64E77CDD1EBDB48E00AA4174 /* NilDataTip.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NilDataTip.xib; sourceTree = "<group>"; };
+		64E77CDE1EBDB48E00AA4174 /* NilDataTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NilDataTipView.h; sourceTree = "<group>"; };
+		64E77CDF1EBDB48E00AA4174 /* NilDataTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NilDataTipView.m; sourceTree = "<group>"; };
+		64E77CE21EBDB4B800AA4174 /* AudioListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioListModel.h; sourceTree = "<group>"; };
+		64E77CE31EBDB4B800AA4174 /* AudioListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioListModel.m; sourceTree = "<group>"; };
+		64E77CE41EBDB4B800AA4174 /* AudioFileInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileInfoModel.h; sourceTree = "<group>"; };
+		64E77CE51EBDB4B800AA4174 /* AudioFileInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileInfoModel.m; sourceTree = "<group>"; };
+		64E77CE81EBDB4C600AA4174 /* NSString+Enhance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Enhance.h"; sourceTree = "<group>"; };
+		64E77CE91EBDB4C600AA4174 /* NSString+Enhance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Enhance.m"; sourceTree = "<group>"; };
+		64E77CEA1EBDB4C600AA4174 /* NSDate+Ldate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Ldate.h"; sourceTree = "<group>"; };
+		64E77CEB1EBDB4C600AA4174 /* NSDate+Ldate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Ldate.m"; sourceTree = "<group>"; };
+		64E77CEF1EBDB4D200AA4174 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		64E77CF01EBDB4D200AA4174 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		64FB17BE1EBEE7DE003AC986 /* amr_wav_converter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amr_wav_converter.c; sourceTree = "<group>"; };
+		64FB17BF1EBEE7DE003AC986 /* amr_wav_converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amr_wav_converter.h; sourceTree = "<group>"; };
+		64FB17C01EBEE7DE003AC986 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		64FB17C11EBEE7DE003AC986 /* PRNAmrPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRNAmrPlayer.h; sourceTree = "<group>"; };
+		64FB17C21EBEE7DE003AC986 /* PRNAmrPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRNAmrPlayer.m; sourceTree = "<group>"; };
+		64FB17C31EBEE7DE003AC986 /* PRNAmrRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRNAmrRecorder.h; sourceTree = "<group>"; };
+		64FB17C41EBEE7DE003AC986 /* PRNAmrRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRNAmrRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64E77C581EBDA4E400AA4174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FB17C61EBEE7DE003AC986 /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E77C711EBDA4E400AA4174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E77C7C1EBDA4E400AA4174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64E77C521EBDA4E400AA4174 = {
+			isa = PBXGroup;
+			children = (
+				64E77C5D1EBDA4E400AA4174 /* AudioRecorder */,
+				64E77C771EBDA4E400AA4174 /* AudioRecorderTests */,
+				64E77C821EBDA4E400AA4174 /* AudioRecorderUITests */,
+				64E77C5C1EBDA4E400AA4174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64E77C5C1EBDA4E400AA4174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64E77C5B1EBDA4E400AA4174 /* AudioRecorder.app */,
+				64E77C741EBDA4E400AA4174 /* AudioRecorderTests.xctest */,
+				64E77C7F1EBDA4E400AA4174 /* AudioRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64E77C5D1EBDA4E400AA4174 /* AudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				64FB17BC1EBEE7DE003AC986 /* AMRMedia */,
+				64E77CEE1EBDB4D200AA4174 /* MBProgressHUD */,
+				64E77C9D1EBDA69700AA4174 /* RecordAudioSheetView */,
+				64E77C991EBDA55A00AA4174 /* MainVC */,
+				64E77C981EBDA55500AA4174 /* Tool */,
+				64E77C911EBDA50400AA4174 /* OtherViewController */,
+				64E77C611EBDA4E400AA4174 /* AppDelegate.h */,
+				64E77C621EBDA4E400AA4174 /* AppDelegate.m */,
+				64E77C671EBDA4E400AA4174 /* Main.storyboard */,
+				64E77CD01EBDB42500AA4174 /* WaterDropAudioViewController.storyboard */,
+				64E77C6A1EBDA4E400AA4174 /* Assets.xcassets */,
+				64E77C6C1EBDA4E400AA4174 /* LaunchScreen.storyboard */,
+				64E77C6F1EBDA4E400AA4174 /* Info.plist */,
+				64E77C5E1EBDA4E400AA4174 /* Supporting Files */,
+			);
+			path = AudioRecorder;
+			sourceTree = "<group>";
+		};
+		64E77C5E1EBDA4E400AA4174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E77CB61EBDA79400AA4174 /* PCHHeader.h */,
+				64E77C5F1EBDA4E400AA4174 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64E77C771EBDA4E400AA4174 /* AudioRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				64E77C781EBDA4E400AA4174 /* AudioRecorderTests.m */,
+				64E77C7A1EBDA4E400AA4174 /* Info.plist */,
+			);
+			path = AudioRecorderTests;
+			sourceTree = "<group>";
+		};
+		64E77C821EBDA4E400AA4174 /* AudioRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64E77C831EBDA4E400AA4174 /* AudioRecorderUITests.m */,
+				64E77C851EBDA4E400AA4174 /* Info.plist */,
+			);
+			path = AudioRecorderUITests;
+			sourceTree = "<group>";
+		};
+		64E77C911EBDA50400AA4174 /* OtherViewController */ = {
+			isa = PBXGroup;
+			children = (
+				64E77C921EBDA51C00AA4174 /* BaseViewController.h */,
+				64E77C931EBDA51C00AA4174 /* BaseViewController.m */,
+			);
+			path = OtherViewController;
+			sourceTree = "<group>";
+		};
+		64E77C981EBDA55500AA4174 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				64E77CE81EBDB4C600AA4174 /* NSString+Enhance.h */,
+				64E77CE91EBDB4C600AA4174 /* NSString+Enhance.m */,
+				64E77CEA1EBDB4C600AA4174 /* NSDate+Ldate.h */,
+				64E77CEB1EBDB4C600AA4174 /* NSDate+Ldate.m */,
+				64E77CA61EBDA6F600AA4174 /* LocialNotificationManager.h */,
+				64E77CA71EBDA6F600AA4174 /* LocialNotificationManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		64E77C991EBDA55A00AA4174 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				64E77CD21EBDB43200AA4174 /* WaterDropAudioViewController.h */,
+				64E77CD31EBDB43200AA4174 /* WaterDropAudioViewController.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		64E77C9D1EBDA69700AA4174 /* RecordAudioSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				64E77C9E1EBDA69700AA4174 /* RecordAudioView.h */,
+				64E77C9F1EBDA69700AA4174 /* RecordAudioView.m */,
+				64E77CA01EBDA69700AA4174 /* RecordAudioView.xib */,
+				64E77CA31EBDA6E500AA4174 /* XXBRippleView.h */,
+				64E77CA41EBDA6E500AA4174 /* XXBRippleView.m */,
+				64E77CD51EBDB48300AA4174 /* RecordView.h */,
+				64E77CD61EBDB48300AA4174 /* RecordView.m */,
+				64E77CD71EBDB48300AA4174 /* RecordView.xib */,
+				64E77CD81EBDB48300AA4174 /* AudioListCell.h */,
+				64E77CD91EBDB48300AA4174 /* AudioListCell.m */,
+				64E77CDD1EBDB48E00AA4174 /* NilDataTip.xib */,
+				64E77CDE1EBDB48E00AA4174 /* NilDataTipView.h */,
+				64E77CDF1EBDB48E00AA4174 /* NilDataTipView.m */,
+				64E77CE21EBDB4B800AA4174 /* AudioListModel.h */,
+				64E77CE31EBDB4B800AA4174 /* AudioListModel.m */,
+				64E77CE41EBDB4B800AA4174 /* AudioFileInfoModel.h */,
+				64E77CE51EBDB4B800AA4174 /* AudioFileInfoModel.m */,
+			);
+			path = RecordAudioSheetView;
+			sourceTree = "<group>";
+		};
+		64E77CEE1EBDB4D200AA4174 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				64E77CEF1EBDB4D200AA4174 /* MBProgressHUD.h */,
+				64E77CF01EBDB4D200AA4174 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		64FB17BC1EBEE7DE003AC986 /* AMRMedia */ = {
+			isa = PBXGroup;
+			children = (
+				64FB17BD1EBEE7DE003AC986 /* Codec */,
+				64FB17C11EBEE7DE003AC986 /* PRNAmrPlayer.h */,
+				64FB17C21EBEE7DE003AC986 /* PRNAmrPlayer.m */,
+				64FB17C31EBEE7DE003AC986 /* PRNAmrRecorder.h */,
+				64FB17C41EBEE7DE003AC986 /* PRNAmrRecorder.m */,
+			);
+			path = AMRMedia;
+			sourceTree = "<group>";
+		};
+		64FB17BD1EBEE7DE003AC986 /* Codec */ = {
+			isa = PBXGroup;
+			children = (
+				64FB17BE1EBEE7DE003AC986 /* amr_wav_converter.c */,
+				64FB17BF1EBEE7DE003AC986 /* amr_wav_converter.h */,
+				64FB17C01EBEE7DE003AC986 /* libopencore-amrnb.a */,
+			);
+			path = Codec;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64E77C5A1EBDA4E400AA4174 /* AudioRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E77C881EBDA4E400AA4174 /* Build configuration list for PBXNativeTarget "AudioRecorder" */;
+			buildPhases = (
+				64E77C571EBDA4E400AA4174 /* Sources */,
+				64E77C581EBDA4E400AA4174 /* Frameworks */,
+				64E77C591EBDA4E400AA4174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioRecorder;
+			productName = AudioRecorder;
+			productReference = 64E77C5B1EBDA4E400AA4174 /* AudioRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64E77C731EBDA4E400AA4174 /* AudioRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E77C8B1EBDA4E400AA4174 /* Build configuration list for PBXNativeTarget "AudioRecorderTests" */;
+			buildPhases = (
+				64E77C701EBDA4E400AA4174 /* Sources */,
+				64E77C711EBDA4E400AA4174 /* Frameworks */,
+				64E77C721EBDA4E400AA4174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64E77C761EBDA4E400AA4174 /* PBXTargetDependency */,
+			);
+			name = AudioRecorderTests;
+			productName = AudioRecorderTests;
+			productReference = 64E77C741EBDA4E400AA4174 /* AudioRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64E77C7E1EBDA4E400AA4174 /* AudioRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E77C8E1EBDA4E400AA4174 /* Build configuration list for PBXNativeTarget "AudioRecorderUITests" */;
+			buildPhases = (
+				64E77C7B1EBDA4E400AA4174 /* Sources */,
+				64E77C7C1EBDA4E400AA4174 /* Frameworks */,
+				64E77C7D1EBDA4E400AA4174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64E77C811EBDA4E400AA4174 /* PBXTargetDependency */,
+			);
+			name = AudioRecorderUITests;
+			productName = AudioRecorderUITests;
+			productReference = 64E77C7F1EBDA4E400AA4174 /* AudioRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64E77C531EBDA4E400AA4174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shen;
+				TargetAttributes = {
+					64E77C5A1EBDA4E400AA4174 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3LNCXDL3W9;
+						ProvisioningStyle = Automatic;
+					};
+					64E77C731EBDA4E400AA4174 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3LNCXDL3W9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64E77C5A1EBDA4E400AA4174;
+					};
+					64E77C7E1EBDA4E400AA4174 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3LNCXDL3W9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64E77C5A1EBDA4E400AA4174;
+					};
+				};
+			};
+			buildConfigurationList = 64E77C561EBDA4E400AA4174 /* Build configuration list for PBXProject "AudioRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64E77C521EBDA4E400AA4174;
+			productRefGroup = 64E77C5C1EBDA4E400AA4174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64E77C5A1EBDA4E400AA4174 /* AudioRecorder */,
+				64E77C731EBDA4E400AA4174 /* AudioRecorderTests */,
+				64E77C7E1EBDA4E400AA4174 /* AudioRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64E77C591EBDA4E400AA4174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E77CE01EBDB48E00AA4174 /* NilDataTip.xib in Resources */,
+				64E77CD11EBDB42500AA4174 /* WaterDropAudioViewController.storyboard in Resources */,
+				64E77CA21EBDA69700AA4174 /* RecordAudioView.xib in Resources */,
+				64E77C6E1EBDA4E400AA4174 /* LaunchScreen.storyboard in Resources */,
+				64E77C6B1EBDA4E400AA4174 /* Assets.xcassets in Resources */,
+				64E77C691EBDA4E400AA4174 /* Main.storyboard in Resources */,
+				64E77CDB1EBDB48300AA4174 /* RecordView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E77C721EBDA4E400AA4174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E77C7D1EBDA4E400AA4174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E77C571EBDA4E400AA4174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E77CE61EBDB4B800AA4174 /* AudioListModel.m in Sources */,
+				64E77CEC1EBDB4C600AA4174 /* NSString+Enhance.m in Sources */,
+				64E77C631EBDA4E400AA4174 /* AppDelegate.m in Sources */,
+				64E77C941EBDA51C00AA4174 /* BaseViewController.m in Sources */,
+				64E77CD41EBDB43200AA4174 /* WaterDropAudioViewController.m in Sources */,
+				64E77CA81EBDA6F600AA4174 /* LocialNotificationManager.m in Sources */,
+				64E77CF11EBDB4D200AA4174 /* MBProgressHUD.m in Sources */,
+				64E77CDC1EBDB48300AA4174 /* AudioListCell.m in Sources */,
+				64FB17C51EBEE7DE003AC986 /* amr_wav_converter.c in Sources */,
+				64FB17C81EBEE7DE003AC986 /* PRNAmrRecorder.m in Sources */,
+				64E77CDA1EBDB48300AA4174 /* RecordView.m in Sources */,
+				64E77CED1EBDB4C600AA4174 /* NSDate+Ldate.m in Sources */,
+				64E77CA11EBDA69700AA4174 /* RecordAudioView.m in Sources */,
+				64E77C601EBDA4E400AA4174 /* main.m in Sources */,
+				64E77CE11EBDB48E00AA4174 /* NilDataTipView.m in Sources */,
+				64E77CE71EBDB4B800AA4174 /* AudioFileInfoModel.m in Sources */,
+				64E77CA51EBDA6E500AA4174 /* XXBRippleView.m in Sources */,
+				64FB17C71EBEE7DE003AC986 /* PRNAmrPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E77C701EBDA4E400AA4174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E77C791EBDA4E400AA4174 /* AudioRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E77C7B1EBDA4E400AA4174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E77C841EBDA4E400AA4174 /* AudioRecorderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64E77C761EBDA4E400AA4174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64E77C5A1EBDA4E400AA4174 /* AudioRecorder */;
+			targetProxy = 64E77C751EBDA4E400AA4174 /* PBXContainerItemProxy */;
+		};
+		64E77C811EBDA4E400AA4174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64E77C5A1EBDA4E400AA4174 /* AudioRecorder */;
+			targetProxy = 64E77C801EBDA4E400AA4174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64E77C671EBDA4E400AA4174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E77C681EBDA4E400AA4174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64E77C6C1EBDA4E400AA4174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E77C6D1EBDA4E400AA4174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64E77C861EBDA4E400AA4174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64E77C871EBDA4E400AA4174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64E77C891EBDA4E400AA4174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = AudioRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioRecorder/AMRMedia/Codec",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.AudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64E77C8A1EBDA4E400AA4174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = AudioRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioRecorder/AMRMedia/Codec",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.AudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64E77C8C1EBDA4E400AA4174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = AudioRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.AudioRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioRecorder.app/AudioRecorder";
+			};
+			name = Debug;
+		};
+		64E77C8D1EBDA4E400AA4174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = AudioRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.AudioRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioRecorder.app/AudioRecorder";
+			};
+			name = Release;
+		};
+		64E77C8F1EBDA4E400AA4174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = AudioRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.AudioRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioRecorder;
+			};
+			name = Debug;
+		};
+		64E77C901EBDA4E400AA4174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = AudioRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.AudioRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64E77C561EBDA4E400AA4174 /* Build configuration list for PBXProject "AudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E77C861EBDA4E400AA4174 /* Debug */,
+				64E77C871EBDA4E400AA4174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E77C881EBDA4E400AA4174 /* Build configuration list for PBXNativeTarget "AudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E77C891EBDA4E400AA4174 /* Debug */,
+				64E77C8A1EBDA4E400AA4174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E77C8B1EBDA4E400AA4174 /* Build configuration list for PBXNativeTarget "AudioRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E77C8C1EBDA4E400AA4174 /* Debug */,
+				64E77C8D1EBDA4E400AA4174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E77C8E1EBDA4E400AA4174 /* Build configuration list for PBXNativeTarget "AudioRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E77C8F1EBDA4E400AA4174 /* Debug */,
+				64E77C901EBDA4E400AA4174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64E77C531EBDA4E400AA4174 /* Project object */;
+}
